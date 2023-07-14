@@ -8,12 +8,11 @@ This project aims to analyze bike share usage patterns using data provided by Mo
 
 ### Files used
 1. `bikeshare.py` an interactive script that analyzes a bike share dataset
-2. **chicago.csv** data related to bike share systems for Chicago city
-3. **new_york_city.csv** data related to bike share systems for New York city
-4. **washington.csv** data related to bike share systems for Washington city
+2. `chicago.csv` data related to bike share systems for **Chicago** city
+3. `new_york_city.csv` data related to bike share systems for **New York** city
+4. `washington.csv` data related to bike share systems for **Washington** city
 
 ### Credits
-
 The following resources provide additional information and context for the project:
 
 - Git Reference Manual: [https://git-scm.com/doc](https://git-scm.com/doc)
