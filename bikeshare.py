@@ -34,7 +34,7 @@ day_options = {
     7: 'Saturday'
 }
 
-city_map_data = {
+city2data = {
     'Chicago': 'chicago.csv',
     'New York City': 'new_york_city.csv',
     'Washington': 'washington.csv'
@@ -42,7 +42,8 @@ city_map_data = {
 
 def print_menu(menu):
     """Function to print the appropriate and formatted menu based on input parameter."""
-    
+
+    # print the related menu based on input parameter
     if menu == 'city':
         for key in city_options.keys():
             print (key, '-', city_options[key])
@@ -156,7 +157,7 @@ def load_data(city, month, day):
     """
     
     # load data file into a dataframe
-    df = pd.read_csv(city_map_data[city])
+    df = pd.read_csv(city2data[city])
 
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
