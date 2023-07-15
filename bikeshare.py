@@ -42,7 +42,8 @@ city_map_data = {
 
 def print_menu(menu):
     """Function to print the appropriate and formatted menu based on input parameter."""
-    
+
+    # print the related menu based on input parameter
     if menu == 'city':
         for key in city_options.keys():
             print (key, '-', city_options[key])
