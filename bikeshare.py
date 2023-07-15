@@ -34,7 +34,7 @@ day_options = {
     7: 'Saturday'
 }
 
-city_map_data = {
+city2data = {
     'Chicago': 'chicago.csv',
     'New York City': 'new_york_city.csv',
     'Washington': 'washington.csv'
@@ -157,7 +157,7 @@ def load_data(city, month, day):
     """
     
     # load data file into a dataframe
-    df = pd.read_csv(city_map_data[city])
+    df = pd.read_csv(city2data[city])
 
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
